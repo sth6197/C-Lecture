@@ -110,6 +110,7 @@ void main()
 
 	printf("result1 = %d\nresult2 = %d\nresult3 = %d\nresult4 = %d\n", result1, result2, result3, result4);
 
+	// ¿Ï·á
 
 #pragma endregion
 
