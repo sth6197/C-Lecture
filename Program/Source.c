@@ -98,22 +98,6 @@ void main()
 	// 4. int (result4) 변수 = 변수 / 리터럴 상수
 	
 	const int a = 10;
-<<<<<<< Updated upstream
-	const int b = 5;
-	int c = 35;
-
-	printf("심볼릭 상수 + 리터럴 상수 = %d\n", a + 5);
-
-
-	printf("리터럴 상수 - 리터럴 상수 = %d\n", 10 - 5);
-
-
-	printf("변수 * 심볼릭 상수 = %d\n", c * b);
-
-	
-	printf("변수 / 리터럴 상수 = %d\n", c / 5);
-
-=======
 	int c = 35;
 
 	int result1 = a + 10;
@@ -125,7 +109,7 @@ void main()
 	int result4 = c / 10;
 
 	printf("result1 = %d\nresult2 = %d\nresult3 = %d\nresult4 = %d\n", result1, result2, result3, result4);
->>>>>>> Stashed changes
+
 
 #pragma endregion
 
