@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class4th (Overflow & Underf
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th (Conditional Statement)", "..\Class5th (Conditional Statement)\Class5th (Conditional Statement).vcxproj", "{76F44D43-B525-4A7D-AC6C-7A33EFC5441B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class6th (iteration Statement)", "..\Class6th (iteration Statement)\Class6th (iteration Statement).vcxproj", "{D1583893-7767-4A04-AED5-523A9F4646DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{76F44D43-B525-4A7D-AC6C-7A33EFC5441B}.Release|x64.Build.0 = Release|x64
 		{76F44D43-B525-4A7D-AC6C-7A33EFC5441B}.Release|x86.ActiveCfg = Release|Win32
 		{76F44D43-B525-4A7D-AC6C-7A33EFC5441B}.Release|x86.Build.0 = Release|Win32
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Debug|x64.ActiveCfg = Debug|x64
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Debug|x64.Build.0 = Debug|x64
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Debug|x86.Build.0 = Debug|Win32
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Release|x64.ActiveCfg = Release|x64
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Release|x64.Build.0 = Release|x64
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Release|x86.ActiveCfg = Release|Win32
+		{D1583893-7767-4A04-AED5-523A9F4646DB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
