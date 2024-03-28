@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{F761B081-F0B4-413D-B688-7C45BE29A973}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{985B882E-4CCF-45B6-9BB5-7340EC89201E}|..\\Class10th (String)\\Class10th (String).vcxproj|C:\\Users\\Pc\\Desktop\\C-Lecture\\Class10th (String)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F761B081-F0B4-413D-B688-7C45BE29A973}|Program.vcxproj|C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F761B081-F0B4-413D-B688-7C45BE29A973}|Program.vcxproj|solutionrelative:Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -18,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +34,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Class10th (String)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class10th (String)\\Source.c",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Class10th (String)\\Source.c",
+              "RelativeToolTip": "..\\Class10th (String)\\Source.c",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-28T10:34:35.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Data.h",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Data.h",
               "RelativeDocumentMoniker": "Data.h",
@@ -48,7 +63,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAiwGMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-03-13T09:11:44.931Z",
               "EditorCaption": ""
