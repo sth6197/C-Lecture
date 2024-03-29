@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (String)", "..\Cl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (Function)", "..\Class11th (Function)\Class11th (Function).vcxproj", "{68D6FC69-A082-41C7-A8DE-468389632AD3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class12th (Recursive Function)", "..\Class12th (Recursive Function)\Class12th (Recursive Function).vcxproj", "{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{68D6FC69-A082-41C7-A8DE-468389632AD3}.Release|x64.Build.0 = Release|x64
 		{68D6FC69-A082-41C7-A8DE-468389632AD3}.Release|x86.ActiveCfg = Release|Win32
 		{68D6FC69-A082-41C7-A8DE-468389632AD3}.Release|x86.Build.0 = Release|Win32
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Debug|x64.ActiveCfg = Debug|x64
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Debug|x64.Build.0 = Debug|x64
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Debug|x86.Build.0 = Debug|Win32
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Release|x64.ActiveCfg = Release|x64
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Release|x64.Build.0 = Release|x64
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Release|x86.ActiveCfg = Release|Win32
+		{F56FBDA8-259B-489B-B41C-E6E79AFE23CF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
