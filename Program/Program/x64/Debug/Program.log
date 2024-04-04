@@ -1,5 +1,2 @@
 ﻿  Source.c
-C:\Users\Pc\Desktop\C-Lecture\Program\Source.c(42,13): warning C4133: '=': 'Node2 *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
-C:\Users\Pc\Desktop\C-Lecture\Program\Source.c(43,13): warning C4133: '=': 'Node3 *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
-C:\Users\Pc\Desktop\C-Lecture\Program\Source.c(51,14): warning C4133: '=': 'Node *'과(와) 'Node1 *' 사이의 형식이 호환되지 않습니다.
-  Program.vcxproj -> C:\Users\Pc\Desktop\C-Lecture\Program\x64\Debug\Program.exe
+  Program.vcxproj -> C:\Users\Administrator\Desktop\C-Lecture\Program\x64\Debug\Program.exe
