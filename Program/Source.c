@@ -1,137 +1,79 @@
 #include <stdio.h>
+#include <windows.h>
+#define _CRT_SECURE_NO_WARNINGS
 
-typedef struct Vector2	// typedef : 자료형의 이름을 재정의합니다.
+#define SIZE 10000
+
+void Load(const char * name)
 {
-	int x;
-	int y;
-}Vector2;
+	FILE* file = fopen(name, "r");
+	
+	char buffer[SIZE] = { 0, };
 
-typedef struct
-{
-	int x;
-	int y;
-	int z;
-}Vector3;
+	fread(buffer, 1, SIZE, file);
 
-enum STATUS
-{
-	// 열거형 중간에 값을 변경하게 되면 그 다음의 값도
-	// 이전의 값에 영향을 받은 상태로 1씩 증가하게 됩니다.
+	printf("%s", buffer);
 
-	IDLE, 
-	ATTACK,
-	DIE
-
-	// 열거형은 0부터 시작하며, 1씩 증가합니다.
-};
-
-int Factorial(int n)
-{
-	if (n <= 1)
-	{
-		return 1;
-	}
-	return n * Factorial(n - 1);
+	fclose(file);
 }
 
 int main()
 {
-#pragma region typedef
-
-	// Vector2 vector2;
-	// 
-	// vector2.x = 10;
-	// vector2.y = 20;
-	// 
-	// printf("Vector2 x: %d\n", vector2.x);
-	// printf("Vector2 y: %d\n", vector2.y);
-	// printf("\n");
-	// 
-	// Vector3 vector3 = { 5,10,15 };
-	// 
-	// printf("Vector3 x: %d\n", vector3.x);
-	// printf("Vector3 y: %d\n", vector3.y);
-	// printf("Vector3 z: %d\n", vector3.z);
-
-#pragma endregion
-
-#pragma region 열거형
+#pragma region 파일 입출력
 	
-	//	enum STATUS status = ATTACK;
-	//	
-	//	printf("status의 값 : %d\n", status);
-	//	
-	//	switch (status)
-	//	{
-	//		case IDLE: printf("대기 상태\n");
-	//			break;
-	//		case ATTACK: printf("공격 상태\n");
-	//			break;
-	//		case DIE: printf("죽은 상태\n");
-	//			break;
-	//	}
+	// 파일 입출력을 위해서는 파일을 열고 닫는 과정이 필요합니다.
+	// 파일을 열기 위해서는 fopen 함수를 사용합니다.
+	// fopen 함수는 파일의 경로와 파일의 모드를 인자로 받습니다.
+	// 파일의 경로는 파일의 경로를 문자열로 입력하면 됩니다.
 
+	// r : 읽기 모드
+	// w : 쓰기 모드
+	// a : 추가 모드
 
-#pragma endregion
-
-#pragma region 팩토리얼
+	// r+ : 읽기/쓰기 모드
+	// w+ : 읽기/쓰기 모드
+	// a+ : 읽기/쓰기 모드
 	
-	// int n = 0;
+	// FILE* file = fopen("data.txt", "w"); // data 텍스트 파일 쓰기 모드
 	// 
-	// scanf_s("%d", &n);
+	// fputs("Level : 5", file);
+	// fputs("Stage : 3", file);
+	// fputs("HP : 100", file);
 	// 
-	// printf("%d! : %d", n, Factorial(n));
+	// fclose(file);
 
-#pragma endregion
+	// fclose 함수는 파일의 포인터를 인자로 받습니다.
+	// 파일을 닫으면 파일의 포인터가 NULL로 초기화됩니다.
+	// 파일을 닫지 않으면 파일이 계속 열려있게 되어 데이터가 손실될 수 있습니다.
 
-#pragma region 이중 포인터
+	// FILE* file = fopen("data.txt", "r");
+	// 
+	// char buffer[SIZE] = { 0, };
+	// 
+	// fread(buffer, 1, SIZE, file); // fread(배열, 데이터 크기, 개수, 파일의 포인터); 
+	// 
+	// printf("%s", buffer);
+	// 
+	// fclose(file);
 	
-	// int data = 10;
-	// 
-	// int* ptr = &data;
-	// int** ptr2 = &ptr;
-	// 
-	// printf("data 변수의 값 : %d\n", data);
-	// 
-	// *ptr = 20;
-	// 
-	// printf("data 변수의 값 : %d\n", data);
-	// 
-	// **ptr2 = 30;
-	// 
-	// printf("data 변수의 값 : %d\n", data);
-
-
+	// 파일의 내용을 읽어서 buffer에 저장합니다.
+	
+	// fread 함수는 파일의 포인터, 읽을 데이터의 크기, 
+	// 읽을 데이터의 개수, 파일의 포인터를 인자로 받습니다.
 #pragma endregion
 
-#pragma region 이차원 배열
-	// 배열의 요소로 또 다른 배열을 가지는 배열입니다.
-
-	int array2D[3][3] =
+#pragma region ASCII Generator
+	
+	// Load("dragon.txt");
+	
+	while (1)
 	{
-		{1, 2, 3},
-		{4, 5, 6},
-		{7, 8, 9}
+		Load("data.txt");
 		
-	};
-	for (int i = 0; i < 3; i++)
-	{
-		for (int n = 0; n < 3; n++)
-		{
-			printf("%d ", array2D[i][n]);
-		}
-		printf("\n");
+		system("cls");
 	}
-	
-
-
-	// 2차원 배열은 행과 열로 구분되며, 앞에 있는 배열은 
-	// 행을 의미하고, 뒤에 있는 배열은 열을 의미합니다.
-
-
 
 #pragma endregion
-
 
 	return 0;
 }
