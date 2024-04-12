@@ -1,3 +1,0 @@
-Level : 5
-Stage : 3
-HP : 100
