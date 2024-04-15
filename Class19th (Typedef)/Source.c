@@ -107,21 +107,21 @@ int main()
 #pragma region 이차원 배열
 	// 배열의 요소로 또 다른 배열을 가지는 배열입니다.
 
-	int array2D[3][3] =
-	{
-		{1, 2, 3},
-		{4, 5, 6},
-		{7, 8, 9}
-
-	};
-	for (int i = 0; i < 3; i++)
-	{
-		for (int n = 0; n < 3; n++)
-		{
-			printf("%d ", array2D[i][n]);
-		}
-		printf("\n");
-	}
+	//	int array2D[3][3] =
+	//	{
+	//		{1, 2, 3},
+	//		{4, 5, 6},
+	//		{7, 8, 9}
+	//	
+	//	};
+	//	for (int i = 0; i < 3; i++)
+	//	{
+	//		for (int n = 0; n < 3; n++)
+	//		{
+	//			printf("%d ", array2D[i][n]);
+	//		}
+	//		printf("\n");
+	//	}
 
 
 
