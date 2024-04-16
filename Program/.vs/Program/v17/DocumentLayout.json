@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66D18775-6687-42DB-BBD3-7C90B4A6C643}|..\\Class22th (Maze Game)\\Class22th (Maze Game).vcxproj|C:\\Users\\Pc\\Desktop\\C-Lecture\\Class22th (Maze Game)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F761B081-F0B4-413D-B688-7C45BE29A973}|Program.vcxproj|C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F761B081-F0B4-413D-B688-7C45BE29A973}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,17 +25,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Source.c",
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-03-13T09:11:44.931Z",
               "IsPinned": true,
@@ -40,28 +43,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Keyboard.h",
-              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Keyboard.h",
-              "RelativeDocumentMoniker": "Keyboard.h",
-              "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Keyboard.h",
-              "RelativeToolTip": "Keyboard.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-15T10:38:12.52Z",
+              "DocumentIndex": 0,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Class22th (Maze Game)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class22th (Maze Game)\\Source.c",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Class22th (Maze Game)\\Source.c",
+              "RelativeToolTip": "..\\Class22th (Maze Game)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-16T10:41:24.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Character.h",
               "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Character.h",
               "RelativeDocumentMoniker": "Character.h",
               "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Character.h",
               "RelativeToolTip": "Character.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-15T10:14:18.23Z",
+              "WhenOpened": "2024-04-16T10:41:49.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Keyboard.h",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Keyboard.h",
+              "RelativeDocumentMoniker": "Keyboard.h",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\Keyboard.h",
+              "RelativeToolTip": "Keyboard.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-16T10:41:45.175Z",
               "EditorCaption": ""
             },
             {
