@@ -143,13 +143,13 @@ typedef struct Star
 void MoveStar(Star* star)
 {
 	srand(time(NULL));
-	
+
 	int cnt = 0;
 	int object = 0;
 
 	object = rand() % 6;
 
-	if(cnt < 5)
+	if (cnt < 5)
 	{
 		switch (object)
 		{
@@ -166,10 +166,6 @@ void MoveStar(Star* star)
 
 		Sleep(100);
 	}
-	if (cnt == 5)
-	{
-		cnt = 0;
-	}
 }
 
 
@@ -178,7 +174,7 @@ int main()
 	// 1. 버퍼를 초기화 합니다.
 	InitializeScreen();
 
-	Star star = { 0, 5, "☆" };
+	Star star = { 0, 0, "☆" };
 
 	while (1)
 	{
