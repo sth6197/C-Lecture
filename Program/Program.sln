@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class21th (Keyboard)", "..\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class22th (Maze Game)", "..\Class22th (Maze Game)\Class22th (Maze Game).vcxproj", "{66D18775-6687-42DB-BBD3-7C90B4A6C643}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class23th (Double Buffering)", "..\Class23th (Double Buffering)\Class23th (Double Buffering).vcxproj", "{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{66D18775-6687-42DB-BBD3-7C90B4A6C643}.Release|x64.Build.0 = Release|x64
 		{66D18775-6687-42DB-BBD3-7C90B4A6C643}.Release|x86.ActiveCfg = Release|Win32
 		{66D18775-6687-42DB-BBD3-7C90B4A6C643}.Release|x86.Build.0 = Release|Win32
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Debug|x64.ActiveCfg = Debug|x64
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Debug|x64.Build.0 = Debug|x64
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Debug|x86.Build.0 = Debug|Win32
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Release|x64.ActiveCfg = Release|x64
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Release|x64.Build.0 = Release|x64
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Release|x86.ActiveCfg = Release|Win32
+		{C4E19A56-E5FE-40BE-B39A-8CF045BEB0CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
