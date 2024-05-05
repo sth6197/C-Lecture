@@ -24,6 +24,7 @@
     <ProjectGuid>{2e225f3e-14dc-4af9-ba19-42156692906c}</ProjectGuid>
     <RootNamespace>Class17thArbitraryArguments</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class17th (가변 길이 목록)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

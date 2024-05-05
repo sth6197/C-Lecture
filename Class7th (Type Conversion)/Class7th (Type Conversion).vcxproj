@@ -24,6 +24,7 @@
     <ProjectGuid>{ee936bbb-1b79-43bf-946d-79520bfe1b7b}</ProjectGuid>
     <RootNamespace>Class7thTypeConversion</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class7th (자료형 변환)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,7 +24,7 @@
     <ProjectGuid>{de6c118c-0b5d-4069-8940-6f3b64862d7a}</ProjectGuid>
     <RootNamespace>Class13thDynamuicAllocation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Class14th (Dynamuic Allocation)</ProjectName>
+    <ProjectName>Class14th (동적 할당)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

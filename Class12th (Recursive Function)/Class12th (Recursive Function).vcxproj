@@ -24,6 +24,7 @@
     <ProjectGuid>{f56fbda8-259b-489b-b41c-e6e79afe23cf}</ProjectGuid>
     <RootNamespace>Class12thRecursiveFunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class12th (재귀 함수)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 #pragma region 반복문
 	// 프로그램 내에서 특정한 작업을 반복적으로
@@ -132,14 +132,12 @@ void main()
 		for (int b = 1; b < 10; b++)
 		{
 			printf("%d * %d = %d\n", a, b, (a * b));
-
+	
 		}
 		printf("\n");
-	}
-
-
+	}	
 #pragma endregion
 
 #pragma endregion
-
+	return 0;
 }

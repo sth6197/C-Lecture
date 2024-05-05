@@ -24,6 +24,7 @@
     <ProjectGuid>{c4e19a56-e5fe-40be-b39a-8cf045beb0cc}</ProjectGuid>
     <RootNamespace>Class23thDoubleBuffering</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class23th (이중 버퍼링)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

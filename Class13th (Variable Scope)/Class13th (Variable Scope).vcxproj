@@ -24,6 +24,7 @@
     <ProjectGuid>{aa64ccf4-c367-45a0-8e76-71da73c2f82d}</ProjectGuid>
     <RootNamespace>Class13thVariableScope</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class13th (지역 변수)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

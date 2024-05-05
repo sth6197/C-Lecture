@@ -24,6 +24,7 @@
     <ProjectGuid>{d5381bbf-d0a2-4725-8608-5734bcd4f849}</ProjectGuid>
     <RootNamespace>Class2thConstant</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class2th (상수)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
