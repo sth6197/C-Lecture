@@ -1,7 +1,11 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Program\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5381BBF-D0A2-4725-8608-5734BCD4F849}|..\\Class2th (Constant)\\Class2th (Constant).vcxproj|C:\\Users\\Pc\\Desktop\\C-Lecture\\Class2th (Constant)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +26,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Class2th (Constant)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class2th (Constant)\\Source.c",
+              "ToolTip": "C:\\Users\\Pc\\Desktop\\C-Lecture\\Class2th (Constant)\\Source.c",
+              "RelativeToolTip": "..\\Class2th (Constant)\\Source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-20T03:32:10.388Z",
+              "EditorCaption": ""
             }
           ]
         }

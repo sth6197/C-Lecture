@@ -1,3 +1,4 @@
-﻿  Class1th (Variable).c
-C:\Users\Administrator\Desktop\C-Lecture\Class1th (Variable)\Class1th (Variable).c(13,7): warning C4101: 'grade' :참조되지 않은 지역 변수입니다.
-  Class1th (Variable).vcxproj -> C:\Users\Administrator\Desktop\C-Lecture\Program\x64\Debug\Class1th (Variable).exe
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(Class1th (Variable).vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  Class1th (Variable).c
+C:\Users\Pc\Desktop\C-Lecture\Class1th (Variable)\Class1th (Variable).c(13,7): warning C4101: 'grade' :참조되지 않은 지역 변수입니다.
+  Class1th (Variable).vcxproj -> C:\Users\Pc\Desktop\C-Lecture\Program\x64\Debug\Class1th (변수).exe
