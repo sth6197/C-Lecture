@@ -39,7 +39,7 @@ void main()
 	// 일련의 데이터를 형식 문자열에 지정되어 있는 형태로
 	// 출력하는 함수입니다.
 
-	//printf("Hello World~\n");
+	printf("Hello World~\n");
 
 	// \n : 개행을 시켜주는 특수 기호입니다.
 
@@ -82,7 +82,7 @@ void main()
 
 
 
-	printf("value의 값 : %d", value);
+	//printf("value의 값 : %d", value);
 
 
 

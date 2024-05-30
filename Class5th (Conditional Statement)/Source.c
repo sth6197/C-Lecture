@@ -10,31 +10,31 @@ void main()
 	// 두 개의 피연산자의 값을 비교하여 그 결과를
 	// 0 또는 1 이라는 값으로 나타내는 연산자입니다.
 
-	//int result = 0;
-	//
-	//result = 10 > 5; // 1
-	//
-	//printf("result 변수의 값 : %d\n", result);
-	//
-	//result = 5 < 4; // 0
-	//
-	//printf("result 변수의 값 : %d\n", result);
-	//
-	//result = 5 >= 1; // 1
-	//
-	//printf("result 변수의 값 : %d\n", result);
-	//
-	//result = 3 <= 1; // 0
-	//
-	//printf("result 변수의 값 : %d\n", result);
-	//
-	//result = 10 == 10; // 1
-	//
-	//printf("result 변수의 값 : %d\n", result);
-	//
-	//result = 10 != 10; // 0
-	//
-	//printf("result 변수의 값 : %d\n", result);
+	// int result = 0;
+	// 
+	// result = 10 > 5; // 1
+	// 
+	// printf("result 변수의 값 : %d\n", result);
+	// 
+	// result = 5 < 4; // 0
+	// 
+	// printf("result 변수의 값 : %d\n", result);
+	// 
+	// result = 5 >= 1; // 1
+	// 
+	// printf("result 변수의 값 : %d\n", result);
+	// 
+	// result = 3 <= 1; // 0
+	// 
+	// printf("result 변수의 값 : %d\n", result);
+	// 
+	// result = 10 == 10; // 1
+	// 
+	// printf("result 변수의 값 : %d\n", result);
+	// 
+	// result = 10 != 10; // 0
+	// 
+	// printf("result 변수의 값 : %d\n", result);
 
 	// 관계 연산자는 조건이 맞을 때 1 이라는 값으로 반환하며,
 	// 조건이 틀릴 때 0 이라는 값으로 반환합니다.
@@ -46,12 +46,12 @@ void main()
 	// 어떤 특정한 조건을 비교하여 조건이 맞다면 실행되는
 	// 명령문입니다.
 
-	//int count = 5;
-	//
-	//if (count == 5)
-	//{
-	//	printf("if문의 조건이 '참' 입니다\n");
-	//}
+	//	int count = 5;
+	//	
+	//	if (count == 5)
+	//	{
+	//		printf("if문의 조건이 '참' 입니다\n");
+	//	}
 
 
 	// if문은 조건이 1일 때 실행되며, 0일 때 실행되지 않습니다.
@@ -81,7 +81,7 @@ void main()
 	// 실행되는 명령문입니다.
 
 	//	int health = 100;
-
+	//	
 	//	if (health <= 0)
 	//	{
 	//		printf("Destroy GameObject\n");
@@ -104,15 +104,15 @@ void main()
 #pragma region Switch문
 	// 어떤 결과에 따라 그 결과부터 실행되는 명령문입니다.
 
-	//int stage = 1;
-	//
-	//switch (stage)
-	//{
-	//	case 1: printf("타이틀\n");
-	//	case 2: printf("마을\n");
-	//	case 3: printf("던전\n");
-	//	case 4: printf("낚시터\n");
-	//}
+	//	int stage = 1;
+	//	
+	//	switch (stage)
+	//	{
+	//		case 1: printf("타이틀\n");
+	//		case 2: printf("마을\n");
+	//		case 3: printf("던전\n");
+	//		case 4: printf("낚시터\n");
+	//	}
 
 	// switch문의 경우 조건에 해당하는 값에 따라
 	// 조건의 위치로 이동합니다.
@@ -167,9 +167,6 @@ void main()
 		printf("NOT 논리 연산자\n");
 	}*/
 #pragma endregion
-
-
-
 #pragma endregion
 
 #pragma region 사분면
